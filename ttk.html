@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>SUS - Diagnóstico</title>
+    <style>
+        h1 {
+            font-family: Arial, sans-serif;
+        }
+        label, select, button, p {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+        #resultado {
+            color: red;
+            font-weight: bold;
+        }
+    </style><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>SUS - Diagnóstico</title>
+    <style>
+        h1 {
+            font-family: Arial, sans-serif;
+        }
+        label, select, button, p {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+        #resultado {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        function diagnosticar() {
+            const sintoma = document.getElementById("sintomas").value;
+            const resultado = document.getElementById("resultado");
+
+            // Exemplo de diagnóstico genérico para fins de humor
+            if (sintoma !== "") {
+                resultado.textContent = "É câncer";
+            } else {
